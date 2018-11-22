@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MiLuzSRL.Models.Provider>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>List of Providers</h2>
+
+<p>
+    @Html.ActionLink("New Provider", "New", "Providers", null, new { @class = "btn btn-primary" })
+</p>
+
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Currency</th>
+                <th>Exist Debt</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var provider in Model)
+            {
+            <tr>
+                <td>@provider.Id</td>
+                <td>@provider.Name</td>
+                <td>@provider.PhoneNumber</td>
+                <td>@provider.Currency</td>
+                <td>@provider.HasDebt</td>
+                <td>@Html.ActionLink("Edit", "Edit", "Providers", new { id = provider.Id }, new { @class = "btn btn-primary" })</td>
+                <td>@Html.ActionLink("Delete", "Delete", "Providers", new { id = provider.Id }, new { @class = "btn btn-primary" })</td>
+            </tr>
+            }
+        </tbody>
+    </table>

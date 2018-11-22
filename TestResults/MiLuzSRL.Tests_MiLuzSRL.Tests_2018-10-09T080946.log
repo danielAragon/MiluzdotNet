@@ -1,0 +1,25 @@
+﻿2018-10-09T08:09:44.9005964-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-10-09T08:09:44.9046199-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.3 execution started
+2018-10-09T08:09:44.9046199-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\marce\source\repos\SI433-Lab2\MiLuzSRL\MiLuzSRL.Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-09T08:09:46.5846980-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-09T08:09:46.5846980-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\marce\source\repos\SI433-Lab2\MiLuzSRL\MiLuzSRL.Tests\bin\Debug\MiLuzSRL.Tests.dll
+2018-10-09T08:09:46.5856773-05:00;VSTestExecutionThread;Info;Profile: MiLuzSRL.Tests
+2018-10-09T08:09:56.8560971-05:00;Thread#15;Info;Discovering target: Default
+2018-10-09T08:09:56.8570255-05:00;Thread#15;Info;Discovering tests from assembly: C:\Users\marce\source\repos\SI433-Lab2\MiLuzSRL\MiLuzSRL.Tests\bin\Debug\MiLuzSRL.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: MiLuzSRL.Tests/MiLuzSRL.Tests - 
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 0
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

@@ -1,0 +1,219 @@
+﻿2018-10-09T08:16:19.3024826-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.3 execution started
+2018-10-09T08:16:19.3085130-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\marce\source\repos\SI433-Lab2\MiLuzSRL\MiLuzSRL.Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-09T08:16:19.4480896-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-09T08:16:19.4480896-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\marce\source\repos\SI433-Lab2\MiLuzSRL\MiLuzSRL.Tests\bin\Debug\MiLuzSRL.Tests.dll
+2018-10-09T08:16:19.4480896-05:00;VSTestExecutionThread;Info;Profile: MiLuzSRL.Tests
+2018-10-09T08:16:33.5908692-05:00;Thread#13;Info;Discovering target: Default
+2018-10-09T08:16:33.5918639-05:00;Thread#13;Info;Discovering tests from assembly: C:\Users\marce\source\repos\SI433-Lab2\MiLuzSRL\MiLuzSRL.Tests\bin\Debug\MiLuzSRL.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: MiLuzSRL.Tests/MiLuzSRL.Tests - 
+#1: Default - 
+#2: MiLuzSRL.Tests - 
+#3: Provider Maintainance - 
+#4: Register Provider - TestAssembly:MiLuzSRL.Tests/Feature:Provider+Maintainance/Scenario:Register+Provider
+#6: Delete Provider - TestAssembly:MiLuzSRL.Tests/Feature:Provider+Maintainance/Scenario:Delete+Provider
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for MiLuzSRL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given after login onto the app
+Thread#0:T:done: ProviderMaintainanceSteps.GivenAfterLoginOntoTheApp() (0.0s)
+Thread#0:B:When I click the Providers link
+Thread#0:T:done: ProviderMaintainanceSteps.WhenIClickTheProvidersLink() (0.0s)
+Thread#0:B:And then click the button New Provider
+Thread#0:T:done: ProviderMaintainanceSteps.WhenThenClickTheButtonNewProvider() (0.0s)
+Thread#0:B:And on the new screen write on the Name field the value of "Coca Cola Company"
+Thread#0:T:done: ProviderMaintainanceSteps.WhenOnTheNewScreenWriteOnTheNameFieldTheValueOf("Coca Cola Company") (0.0s)
+Thread#0:B:And on the new screen write on the PhoneNumber field the value of "123456789"
+Thread#0:T:done: ProviderMaintainanceSteps.WhenOnTheNewScreenWriteOnThePhoneNumberFieldTheValueOf("123456789") (0.0s)
+Thread#0:B:And on the new screen select the Currency radiobutton with the value "Dollars"
+Thread#0:T:done: ProviderMaintainanceSteps.WhenOnTheNewScreenSelectTheCurrencyRadiobuttonWithTheValue("Dollars") (0.0s)
+Thread#0:B:And on the new screen do not check the Exists any debt checkbox
+Thread#0:T:done: ProviderMaintainanceSteps.WhenOnTheNewScreenDoNotCheckTheExistsAnyDebtCheckbox() (0.0s)
+Thread#0:B:And press the Save button
+Thread#0:T:error:   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:B:Then the system redirects me to the list of providers
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.7923331 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given after login onto the app
+Thread#0:T:done: ProviderMaintainanceSteps.GivenAfterLoginOntoTheApp() (0.0s)
+Thread#0:B:When I click the Providers link
+Thread#0:T:done: ProviderMaintainanceSteps.WhenIClickTheProvidersLink() (0.0s)
+Thread#0:B:And then click the button New Provider
+Thread#0:T:done: ProviderMaintainanceSteps.WhenThenClickTheButtonNewProvider() (0.0s)
+Thread#0:B:And on the new screen write on the Name field the value of "Coca Cola Company"
+Thread#0:T:done: ProviderMaintainanceSteps.WhenOnTheNewScreenWriteOnTheNameFieldTheValueOf("Coca Cola Company") (0.0s)
+Thread#0:B:And on the new screen write on the PhoneNumber field the value of "123456789"
+Thread#0:T:done: ProviderMaintainanceSteps.WhenOnTheNewScreenWriteOnThePhoneNumberFieldTheValueOf("123456789") (0.0s)
+Thread#0:B:And on the new screen select the Currency radiobutton with the value "Dollars"
+Thread#0:T:done: ProviderMaintainanceSteps.WhenOnTheNewScreenSelectTheCurrencyRadiobuttonWithTheValue("Dollars") (0.0s)
+Thread#0:B:And on the new screen do not check the Exists any debt checkbox
+Thread#0:T:done: ProviderMaintainanceSteps.WhenOnTheNewScreenDoNotCheckTheExistsAnyDebtCheckbox() (0.0s)
+Thread#0:B:And press the Save button
+Thread#0:T:error: Multiple failures or warnings in test:
+Thread#0:T:  1)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:T:  2)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:B:Then the system redirects me to the list of providers
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0159574 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given after login onto the app
+Thread#0:T:done: ProviderMaintainanceSteps.GivenAfterLoginOntoTheApp() (0.0s)
+Thread#0:B:When I click the Providers link
+Thread#0:T:done: ProviderMaintainanceSteps.WhenIClickTheProvidersLink() (0.0s)
+Thread#0:B:And then click the button New Provider
+Thread#0:T:done: ProviderMaintainanceSteps.WhenThenClickTheButtonNewProvider() (0.0s)
+Thread#0:B:And on the new screen write on the Name field the value of "Coca Cola Company"
+Thread#0:T:done: ProviderMaintainanceSteps.WhenOnTheNewScreenWriteOnTheNameFieldTheValueOf("Coca Cola Company") (0.0s)
+Thread#0:B:And on the new screen write on the PhoneNumber field the value of "123456789"
+Thread#0:T:done: ProviderMaintainanceSteps.WhenOnTheNewScreenWriteOnThePhoneNumberFieldTheValueOf("123456789") (0.0s)
+Thread#0:B:And on the new screen select the Currency radiobutton with the value "Dollars"
+Thread#0:T:done: ProviderMaintainanceSteps.WhenOnTheNewScreenSelectTheCurrencyRadiobuttonWithTheValue("Dollars") (0.0s)
+Thread#0:B:And on the new screen do not check the Exists any debt checkbox
+Thread#0:T:done: ProviderMaintainanceSteps.WhenOnTheNewScreenDoNotCheckTheExistsAnyDebtCheckbox() (0.0s)
+Thread#0:B:And press the Save button
+Thread#0:T:error: Multiple failures or warnings in test:
+Thread#0:T:  1)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:T:  2)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:T:  3)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:B:Then the system redirects me to the list of providers
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0212645 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given after login onto the app
+Thread#0:T:done: ProviderMaintainanceSteps.GivenAfterLoginOntoTheApp() (0.0s)
+Thread#0:B:When I click the Providers link
+Thread#0:T:done: ProviderMaintainanceSteps.WhenIClickTheProvidersLink() (0.0s)
+Thread#0:B:And then click the delete button from the second provider
+Thread#0:T:error: Multiple failures or warnings in test:
+Thread#0:T:  1)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:T:  2)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:T:  3)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:T:  4)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  null
+Thread#0:B:Then the system redirects me to the list of providers
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #6/0 is finished on thread #0 as Failed within 0.0149601 seconds
+Thread#0: Test #6/1 is started on thread #0
+Thread#0:B:Given after login onto the app
+Thread#0:T:done: ProviderMaintainanceSteps.GivenAfterLoginOntoTheApp() (0.0s)
+Thread#0:B:When I click the Providers link
+Thread#0:T:done: ProviderMaintainanceSteps.WhenIClickTheProvidersLink() (0.0s)
+Thread#0:B:And then click the delete button from the second provider
+Thread#0:T:error: Multiple failures or warnings in test:
+Thread#0:T:  1)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:T:  2)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:T:  3)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:T:  4)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  null
+Thread#0:T:  5)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  null
+Thread#0:B:Then the system redirects me to the list of providers
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #6/1 is finished on thread #0 as Failed within 0.0129645 seconds
+Thread#0: Test #6/2 is started on thread #0
+Thread#0:B:Given after login onto the app
+Thread#0:T:done: ProviderMaintainanceSteps.GivenAfterLoginOntoTheApp() (0.0s)
+Thread#0:B:When I click the Providers link
+Thread#0:T:done: ProviderMaintainanceSteps.WhenIClickTheProvidersLink() (0.0s)
+Thread#0:B:And then click the delete button from the second provider
+Thread#0:T:error: Multiple failures or warnings in test:
+Thread#0:T:  1)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:T:  2)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:T:  3)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  <MiLuzSRL.Models.Provider>
+Thread#0:T:  4)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  null
+Thread#0:T:  5)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  null
+Thread#0:T:  6)   Expected: <MiLuzSRL.Models.Provider>
+Thread#0:T:  But was:  null
+Thread#0:B:Then the system redirects me to the list of providers
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #6/2 is finished on thread #0 as Failed within 0.0149601 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 2 (test executions: 6)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2
